@@ -1,4 +1,4 @@
-- name: Pingme
+- name: Ping Site
   shell: ping -c 1 -w 2 1.1.1.1
   register: ping_result
 

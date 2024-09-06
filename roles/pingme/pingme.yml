@@ -1,5 +1,5 @@
 - name: Ping Site
-  shell: ping -c 1 -w 2 1.1.1.1
+  shell: ping -c 1 -w 2 one.one.one.one
   register: ping_result
 
 - name: Ping result

@@ -1,7 +1,0 @@
-- name: Pingme
-  shell: ping -c 1 -w 2 1.1.1.1
-  register: ping_result
-
-- name: Ping result
-  debug:
-    msg: "{{ ping_result.stdout_lines }}"
